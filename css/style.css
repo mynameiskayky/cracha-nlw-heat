@@ -118,17 +118,12 @@ ul {
 
 @media (max-width: 500px) {
   main {
-    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
   }
 
-  .container {
-    max-width: 90%;
-    height: 90%;
-    height: 580px;
-  }
-}
-
-@media (max-width: 375px) {
   .container {
     height: 500px;
   }
@@ -139,5 +134,38 @@ ul {
 
   ul {
     margin-top: 1rem;
+  }
+}
+
+@media (max-width: 410px) {
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+  }
+
+  .container {
+    min-width: 260px;
+    height: 490px;
+  }
+
+  .container-info {
+    max-width: 260px;
+    padding: 0 5px;
+  }
+
+  .itens {
+    display: none;
+  }
+
+  .avatar {
+    width: 9rem;
+    margin: 1.5rem auto 0;
+  }
+
+  .avatar > img {
+    width: 9rem;
+    height: 10.5rem;
   }
 }
