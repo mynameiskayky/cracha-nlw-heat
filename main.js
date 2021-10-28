@@ -1,8 +1,7 @@
 const linksSocialMedia = {
   github: 'mynameiskayky',
-  youtube: 'yUCxuexeV0gJpuF70O8_vbBmQ',
+  linkedin: 'in/kaykyvieraa/',
   instagram: 'mynameiskayky',
-  facebook: 'kayky.carvalho.58',
   twitter: 'kay_vieiraa'
 }
 
@@ -31,3 +30,11 @@ function getGitHubProfileInfos() {
 }
 
 getGitHubProfileInfos()
+
+function ulrMail() {
+  const mail = 'mailto:kaykyvieiraa@hotmail.com'
+
+  mailMeu.textContent = 'mailto:kaykyvieiraa@hotmail.com'
+}
+
+ulrMail()

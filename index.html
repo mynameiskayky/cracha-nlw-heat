@@ -6,12 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NWL Heat - DoWhile 2021</title>
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https: //fonts.googleapis.com/css2? família = Roboto: wght @ 400; 700 & display = swap "
-      rel=" stylesheet "
-    />
   </head>
   <body>
     <main>
@@ -41,9 +35,9 @@
             An instructor focused on helping pople start programming for web
           </p>
           <ul id="socialLinks">
-            <li class="youtube">
-              <a href="https://youtube.com/" target="_blank">
-                <img src="images/youtube.svg" alt="Ícone YouTube"
+            <li class="linkedin">
+              <a href="https://linkedin.com/" target="_blank">
+                <img src="images/linkedin.svg" alt="Ícone YouTube"
               /></a>
             </li>
             <li class="instagram">
@@ -51,9 +45,11 @@
                 ><img src="images/instagram.svg" alt="Ícone Instagram"
               /></a>
             </li>
-            <li class="facebook">
-              <a href="https://facebook.com/" target="_blank"
-                ><img src="images/facebook.svg" alt="Ícone Facebook"
+            <li class="mailMeu">
+              <span>
+                <a href="mailto:kaykyvieiraa@hotmail.com" target="_blank"
+                  >
+              </span><img src="images/mail.svg" alt="Ícone Facebook"
               /></a>
             </li>
             <li class="twitter">
@@ -67,5 +63,34 @@
     </main>
 
     <script src="main.js"></script>
+    <script type="reveal/javascript" src="animacao.js"></script>
+    <script type="text/javascript" src='animacao.js'></script>
+    <script type="text/javascript">
+      VanillaTilt.init(document.querySelector(".container"), {
+        max: 10,
+        speed: 300
+      })
+    </script>
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="https://unpkg.com/feather-icons"></script>
+        <script>
+            feather.replace()
+        </script>
+        <script>
+          const sr = ScrollReveal({
+              origin: 'top',
+              distance: '50px',
+              duration: 2000,
+              reset: true
+          });
+  
+          ScrollReveal().reveal('.container', { delay: 300 });
+          ScrollReveal().reveal('.container-info', { delay: 400 });
+          ScrollReveal().reveal('.avatar', { delay: 500 });
+          ScrollReveal().reveal('#userName', { delay: 600 });
+          ScrollReveal().reveal('#userLink', { delay: 800 });
+          ScrollReveal().reveal('#userBio', { delay: 800 });
+          ScrollReveal().reveal('ul', { delay: 900 });
+    </script>
   </body>
 </html>
