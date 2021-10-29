@@ -2,12 +2,12 @@
 
 <p align="center">
   <a href="#tecnologias">Tecnologias</a> ・
-  <a href="#bibliotecas"></a> ・
+  <a href="#bibliotecas"></a> 
   <a href="#projeto">Projeto</a> ・
-  <a href="#adicionais">adicionais</a> ・
+  <a href="#adicionais">adicionais</a>
 </p>
 <p align="center">
-  <img alt="Preview" src="../images/img-cracha.png" width="100%">
+  <img alt="Preview" src="images/img-cracha.png" width="700em">
 </p>
 
 ## Tecnologias
@@ -18,7 +18,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - CSS
 - JavaScript
 
-# Bibliotecas
+### Bibliotecas
 
 - [Google Fonts](https://www.fonts.google.com/)
 - [Tilt.js](https://github.com/gijsroge/tilt.js)
@@ -38,5 +38,7 @@ Projeto proposto da @rocketseat em um evento online com 5 aulas de grandes apren
 ## adicionais
 
 Incremetei o projeto com mais elementos, um deles foi as animações com as <a href="#bibliotecas">bibliotecas acima</a>, também usei o efeito Glassmorphism no card (Crachá)
+
+---
 
 <p>Feito com 💙 por <a href="https://www.linkedin.com/in/kaykyvieraa/">Kayky Vieira</a></p>
