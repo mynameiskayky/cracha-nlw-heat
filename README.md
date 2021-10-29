@@ -29,8 +29,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## Projeto
 
-Este crachá digital foi criado durante o evento NLW/Heat disponibilizado pela @rocketseat-education. Fui guiado durante 5 aulas pelos professores [@maykbrito](https://www.github.com/maykbrito) e [@jakeliny](https://github.com/jakeliny). Ao final, tive a oportunidade de inserir funcionalidades extras ao projeto.
-
 Projeto proposto da @rocketseat em um evento online com 5 aulas de grandes aprendizados para mim, pude concluir este projeto com muita dedição, ele basicamente consiste em ser um crachá digital com ultilidade para o futuro no evento do DoWhile 2021
 
 <p align="center">Veja este projeto <a href="https://mynameiskayky.github.io/Badge-Do-While2021/" target="_blank">aqui</a></p>
