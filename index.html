@@ -8,60 +8,80 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
+
     <main>
+
       <div class="container">
+
         <div class="itens">
           <img id="faixa"><img src="images/faixa.svg" alt=""></img>
           <img id="quebra"><img src="images/quebra.svg" alt=""></img>
         </div>
+
         <img id="mask" src="images/mask.svg" alt="" />
+        
         <div class="container-info">
+
           <div class="avatar">
+
             <span>
               <img src="images/build.svg" alt="Selo Rocketseat" />
             </span>
-            <img id="userImage" src="images/asd.png" alt="Foto pessoal" />
+
+            <img id="userImage" src="images/eu.svg" alt="Foto pessoal" />
+
           </div>
+
           <h1 id="userName">Kayky Vieira</h1>
+
           <a
             id="userLink"
             href="https://github.com/mynameiskayky"
-            target="_blank"
-          >
-            <img src="images/github.svg" alt="Ícone GitHub" />
-            <span id="userLogin">mynameiskayky</span></a
-          >
+            target="_blank">
+
+            <img id="userLogin" src="images/github.svg" alt="Ícone GitHub" />
+
+            <span id="userLogin">mynameiskayky</span></a>
+
           <p id="userBio">
             An instructor focused on helping pople start programming for web
           </p>
+          
           <ul id="socialLinks">
             <li class="linkedin">
               <a href="https://linkedin.com/" target="_blank">
-                <img src="images/linkedin.svg" alt="Ícone YouTube"
-              /></a>
+                <img src="images/linkedin.svg" alt="Ícone YouTube"/>
+              </a>
             </li>
+
             <li class="instagram">
-              <a href="https://instagram.com/" target="_blank"
-                ><img src="images/instagram.svg" alt="Ícone Instagram"
-              /></a>
+              <a href="https://instagram.com/" target="_blank">
+                <img src="images/instagram.svg" alt="Ícone Instagram"/>
+              </a>
             </li>
+
             <li class="mailMeu">
               <span>
-                <a href="mailto:kaykyvieiraa@hotmail.com" target="_blank"
-                  >
-              </span><img src="images/mail.svg" alt="Ícone Facebook"
-              /></a>
+                <a href="mailto:kaykyvieiraa@hotmail.com" target="_blank">
+              </span>
+              <img src="images/mail.svg" alt="Ícone Facebook"/>
+            </a>
             </li>
+
             <li class="twitter">
-              <a href="https://twitter.com/" target="_blank"
-                ><img src="images/twitter.svg" alt="Ícone Twitter"
-              /></a>
+              <a href="https://twitter.com/" target="_blank">
+                <img src="images/twitter.svg" alt="Ícone Twitter"/>
+              </a>
             </li>
+
           </ul>
+
         </div>
       </div>
+
     </main>
 
+    <!-- Arquivos JavaScript -->
     <script src="main.js"></script>
     <script type="reveal/javascript" src="animacao.js"></script>
     <script type="text/javascript" src='animacao.js'></script>
@@ -88,7 +108,7 @@
           ScrollReveal().reveal('.container-info', { delay: 400 });
           ScrollReveal().reveal('.avatar', { delay: 500 });
           ScrollReveal().reveal('#userName', { delay: 600 });
-          ScrollReveal().reveal('#userLink', { delay: 800 });
+          ScrollReveal().reveal('#userLogin', { delay: 800 });
           ScrollReveal().reveal('#userBio', { delay: 800 });
           ScrollReveal().reveal('ul', { delay: 900 });
     </script>

@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
 
+/* Configuração geral do projeto */
 * {
   padding: 0;
   margin: 0;
@@ -22,19 +23,20 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
 
 main {
-  background: url(../images/backgroundd.png) no-repeat center/cover;
+  background: url(../images/background.png) no-repeat center/cover;
   width: 100vw;
-  /* min-height: 812px; */
   height: 100vh;
-  display: grid;
-  place-items: center;
-  padding: 0.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
 }
 
+/* Crachá */
 .container {
   width: 100%;
   max-width: 375px;
@@ -50,6 +52,7 @@ main {
   align-items: center;
 }
 
+/* Itens do crachá (Faixa, Quebra, e mascara do card) */
 .itens {
   display: flex;
   flex-direction: column;
@@ -57,7 +60,7 @@ main {
   align-items: center;
   position: absolute;
   top: -230px;
-  z-index: 9;
+  z-index: 1;
 }
 
 #mask {
@@ -68,6 +71,7 @@ main {
   left: 0;
 }
 
+/* Conteúdo do crachá */
 .container-info {
   max-width: 250px;
   color: var(--gray);
@@ -96,12 +100,12 @@ main {
   clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
 }
 
-h1 {
+#userName {
   font-size: 1.5rem;
   margin-top: 1.5rem;
 }
 
-a {
+#userLink {
   color: var(--gray);
   text-decoration: none;
   margin-top: 0.25rem;
@@ -116,11 +120,11 @@ a {
   color: #ff008e;
 }
 
-p {
+#userBio {
   margin-top: 2rem;
 }
 
-ul {
+#socialLinks {
   margin-top: 3rem;
   list-style: none;
   padding: 0;
@@ -130,20 +134,17 @@ ul {
   justify-content: center;
 }
 
-ul .mailMeu {
-  display: flex;
-}
-
-ul li a img {
+#socialLinks li a img {
   border-radius: 0.5rem;
   border: 1px solid rgba(255, 255, 255, 0.411);
   transition: 0.8s;
 }
 
-ul li a img:hover {
+#socialLinks li a img:hover {
   background-color: #ff008e;
 }
 
+/* Animação do selo */
 @keyframes rotate {
   0% {
     transform: rotate(0);
@@ -154,7 +155,6 @@ ul li a img:hover {
 }
 
 /* Media queries */
-
 @media (max-width: 500px) {
   main {
     display: flex;
@@ -167,21 +167,18 @@ ul li a img:hover {
     height: 500px;
   }
 
-  p {
+  #userBio {
     margin-top: 1rem;
   }
 
-  ul {
-    margin-top: 1rem;
+  #socialLinks {
+    margin-top: 1.5rem;
   }
 }
 
 @media (max-width: 410px) {
   main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 30px;
+    padding: 1.25rem;
   }
 
   .container {
@@ -192,10 +189,6 @@ ul li a img:hover {
   .container-info {
     max-width: 260px;
     padding: 0 5px;
-  }
-
-  .itens {
-    display: none;
   }
 
   .avatar {
